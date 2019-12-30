@@ -6,16 +6,16 @@ window.onload = function () {
 	var downloadbtn = document.getElementById("downloadb");
 
 	homebtn.addEventListener("click", function(){
-		window.location='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/home.html';
+		window.location.href='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/home.html';
 	});
 	aboutbtn.addEventListener("click", function(){
-		window.location='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/about.html';
+		window.location.href='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/about.html';
 	});
 	charbtn.addEventListener("click", function(){
-		window.location='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/characters.html';
+		window.location.href='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/characters.html';
 	});
 	downloadbtn.addEventListener("click", function(){
-		window.location='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/download.html';
+		window.location.href='C:/Users/Hachimeroppi/Desktop/Project_Caelium/code/download.html';
 	});
 
 }

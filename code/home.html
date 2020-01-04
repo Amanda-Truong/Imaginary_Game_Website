@@ -3,7 +3,10 @@
 <head>
 	<title>Project Caelium | Home Page</title>
 	<link rel="stylesheet" type="text/css" href="Standard_CSS.css">
+	<link rel="stylesheet" type="text/css" href="header_css.css">
+	<link rel="stylesheet" type="text/css" href="carousel_css.css">
 	<script type="text/javascript" src="navBar.js"></script>
+	<script type="text/javascript" src="homepage.js"></script>
 </head>
 <body>
 	<header>
@@ -15,9 +18,28 @@
 		</nav>
 	</header>	
 	<h1>Enter the World of the Projects<br></h1>
-	<img src="C:/Users/Hachimeroppi/Desktop/Project_Caelium/images/Untitled.png" class= image></a><!-- image goes here -->	
+		<table>
+		<tr>
+			<td>
+				<img src="C:/Users/Hachimeroppi/Desktop/Project_Caelium/images/scroll_arrowL.png" id= "carouselL" title= "Scroll Image Left" onclick="changeImageL()">
+			</td>
+			<td>
+				<img src="C:/Users/Hachimeroppi/Desktop/Project_Caelium/images/slideshow/1.png" id="carousel">
+			</td>
+			<td>					
+				<img src="C:/Users/Hachimeroppi/Desktop/Project_Caelium/images/scroll_arrowR.png" id= "carouselR" title= "Scroll Image Right" onclick="changeImageR()">
+			</td>
+		</tr>
+	</table>		
+	
 	<div>
 		<p>Piece Together Clues, Solve the Mysteries, Find the Culprit, And Bring them In by Force.    Join [protagonist] as he joins Branch 16, a supernatural investigation team, and piece together the unusual occurances in M city.  Search the crime scene for any sort of clues, recreate the crime with everything you've gathered, and engage the criminal.  Enter an RPG battle system to bring the enemy down and take them in for questioning.</p>
 	</div>	
+	<footer>
+			<a href="home.html" class="footer_link">Home</a>
+			<a href="about.html" class="footer_link">About</a>
+			<a href="characters.html" class="footer_link">Characters</a>
+			<a href="download.html" class="footer_link">Download</a>
+	</footer>
 </body>
 </html>	

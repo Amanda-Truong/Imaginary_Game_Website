@@ -1,0 +1,19 @@
+#carousel {
+	border: 8px solid rgb(30,30,70);
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6px;
+
+} 
+#carouselL {
+	width: 300%;		
+	float: left;
+	cursor: pointer;
+	vertical-align: center;	
+}
+#carouselR {
+	width: 300%;
+	float: right;
+	cursor: pointer;
+	vertical-align: center;
+}
